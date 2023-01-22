@@ -1,0 +1,21 @@
+.container{
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    position: relative;
+    background: white;
+    font-family: Arial;
+    max-width: max-content;
+  }
+  .stepCount{
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+  }
+  .buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    margin-top: 1rem;
+  }
