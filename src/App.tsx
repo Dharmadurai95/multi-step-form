@@ -38,8 +38,8 @@ function App() {
   }
   const { next, back, go, currentIndex, step, steps, isFirstPage, isLastPage } = useMultiForm([
     <UserForm {...formData} updateFields={updateField} />,
-    <AddressDetails {...formData} {...formData} updateFields={updateField} />,
-    <AccountDetails {...formData} {...formData} updateFields={updateField} />
+    <AddressDetails {...formData} updateFields={updateField} />,
+    <AccountDetails {...formData} updateFields={updateField} />
   ])
   function onSubmitHandler(e: FormEvent) {
     e.preventDefault();
